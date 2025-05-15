@@ -16,7 +16,7 @@ export default function PostCard({title, description, date, source}:Props) {
           {
             source ?
             <a href={source} className={styles.citationLink}>
-              {source}
+              {`(${source})`}
             </a> : ""
           }
           </div>

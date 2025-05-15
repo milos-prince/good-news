@@ -13,7 +13,7 @@ export default function Header() {
           </div>
          </div>
           <div className={styles.donate}>
-          <p>Please help. I don't have long left. </p>
+          <p><span className={styles.close}>&#10005;</span>Please help. I don't have long left. ☕</p>
           </div>
        </section>
   );
