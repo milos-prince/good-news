@@ -1,0 +1,26 @@
+.main{
+  padding: 10px 5vw;
+  border: 1px solid gray;
+  transition: background .2s ease-in-out;
+  .titleSection{
+    display: flex;
+    justify-content: space-between;
+    .citationLink{
+      margin-left:10px;
+      align-self:end;
+      font-size: 14px;
+      font-style: italic;
+    }
+  }
+  .date{
+    opacity: 0.75;
+    font-size: 10px;
+    line-height: 12px;
+  }
+  .description{
+    margin: 5px 0px;
+  }
+  &:hover{
+    background: linear-gradient(270deg,rgba(255, 250, 229, 0.1) 0%, rgba(255, 255, 0, 0.5) 90%, rgba(255, 212, 0, 0.5) 100%);
+  }
+}
