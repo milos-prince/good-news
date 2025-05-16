@@ -9,7 +9,7 @@ const fakeReturn = [
     },
     {
         "id": 2,
-        "title":"Everyone gets a Ferari and a beej"
+        "title":"Everyone gets a Ferari"
     },
     {
         "id": 3,

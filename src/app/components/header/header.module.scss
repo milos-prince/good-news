@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  background-color: yellow;
+  background: linear-gradient(180deg,#EEA243 0%, rgba(255, 255, 0, 1) 60%, rgba(255, 255, 255, 1) 92%, rgba(255, 255, 255, 0.3) 100%);
   color:black;
   .main{
     padding:5px;
@@ -24,9 +24,10 @@
     }
   }
   .donate{
-    //height:20px;
     width: 100%;
     background: #80B918;
+    background: #9C0D38;
+    color: white;
     padding:1px 5px;
     .donateText{
       font-size:14px;
@@ -34,6 +35,7 @@
         font-size:18px;
         font-weight: bold;
         margin-right:10px;
+        cursor: pointer;
       }
    }
   }

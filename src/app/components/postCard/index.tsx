@@ -17,7 +17,7 @@ export default function PostCard({title, description, date, source}:Props) {
   }
 
   const style = {
-    background: `rgb(${colorArray[0]}, ${colorArray[1]}, ${colorArray[2]}, 0.2)`
+    background: `rgb(${colorArray[0]}, ${colorArray[1]}, ${colorArray[2]}, 0.3)`
   }
 
   return (

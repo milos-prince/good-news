@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./header.module.scss";
+import Donate from "./donate";
 
 export default function Header() {
   return (
@@ -13,9 +14,7 @@ export default function Header() {
             </ul>
           </div>
          </div>
-          <div className={styles.donate}>
-          <p className={styles.donateText}><span className={styles.close}>&#10005;</span>This project is built and maintained by a single dev, donations fund server costs and ☕. Please consider supporting :)</p>
-          </div>
+          <Donate />
        </header>
   );
 }
