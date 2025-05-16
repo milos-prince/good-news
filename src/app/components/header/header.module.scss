@@ -9,6 +9,7 @@
   color:black;
   .main{
     padding:5px;
+    height: 40px;
     display: flex;
     flex-direction: row;
   }
@@ -19,19 +20,21 @@
     align-items: end;
     li{
       list-style: none;
-      margin:0px 5px 2px 0px;
+      margin-right:10px;
     }
   }
   .donate{
-    height:30px;
+    //height:20px;
     width: 100%;
     background: #80B918;
     padding:1px 5px;
-    .close{
-      font-size:12px;
-      font-weight: bold;
-      margin-right:10px;
-      vertical-align: text-top;
-    }
+    .donateText{
+      font-size:14px;
+      .close{
+        font-size:18px;
+        font-weight: bold;
+        margin-right:10px;
+      }
+   }
   }
 }

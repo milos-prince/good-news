@@ -20,7 +20,7 @@
   .description{
     margin: 5px 0px;
   }
-  &:hover{
-    background: linear-gradient(270deg,rgba(255, 250, 229, 0.1) 0%, rgba(255, 255, 0, 0.5) 90%, rgba(255, 212, 0, 0.5) 100%);
+  &:not(:hover){
+    background: white !important;
   }
 }
